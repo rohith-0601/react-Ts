@@ -1,4 +1,5 @@
 import './App.css';
+import { Button } from './components/button';
 import { Greet } from './components/Greet';
 import Heading from './components/heading';
 import { Oscar } from './components/oscar';
@@ -11,6 +12,9 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to me</Heading>
       </Oscar>
+      <Button handleclick={(event)=>{
+        console.log("Button clicked",event);
+      }}></Button>
     </div>
   );
 }
