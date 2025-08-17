@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>hello</h1>
       <h2>lets learn typescript today</h2>
-      <h3>a new thing will do on monday again</h3>
+      <h3>lets do after exam</h3>
     </div>
   );
 }
